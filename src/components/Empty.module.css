@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--gray-300);
+  
+    border-top: 1px solid var(--gray-400);
+  
+    padding: 1.5rem 20rem 1.5rem 25rem;
+    border-radius: 8px;
+  }
+  
+  .container img {
+    margin-bottom: 1rem;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        background: var(--gray-500);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        width: 20rem;
+        font-size: 12px;
+    }
+  }
